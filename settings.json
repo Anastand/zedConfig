@@ -7,6 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "languages": {
+    "JavaScript": {
+      "show_inline_completions": true
+    }
+  },
   "features": {
     "inline_completion_provider": "supermaven"
   },
@@ -41,7 +46,7 @@
     }
   },
   "terminal": {
-    "font_size": 16,
+    "font_size": 14,
     "font_family": "FiraCode Nerd Font",
     "copy_on_select": true,
     "cursor_shape": "bar",
